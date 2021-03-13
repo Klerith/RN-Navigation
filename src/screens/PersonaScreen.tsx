@@ -16,6 +16,7 @@ export const PersonaScreen = ( { route, navigation }: Props ) => {
 
     // const params = route.params as RouterParams;
     const params = route.params;
+    console.log(params)
 
     useEffect( () => {
 
